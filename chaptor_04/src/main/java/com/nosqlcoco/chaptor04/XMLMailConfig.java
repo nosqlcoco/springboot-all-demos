@@ -1,6 +1,7 @@
 package com.nosqlcoco.chaptor04;
 
 /**
+ * 一个普通的类，由xml文件配置bean
  * @author nosqlcoco
  *
  */

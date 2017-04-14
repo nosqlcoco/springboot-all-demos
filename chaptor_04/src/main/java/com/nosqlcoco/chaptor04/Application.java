@@ -9,9 +9,8 @@ import org.springframework.context.annotation.ImportResource;
 import org.springframework.context.annotation.PropertySource;
 
 /**
- * Hello world!
- * 创建Bean的方式
- * 1. 使用注解（Bean Compaonent）
+ * 创建一个Bean
+ * 1. 使用注解
  * 2. 使用XML
  */
 @SpringBootApplication

@@ -3,7 +3,8 @@ package com.nosqlcoco.chaptor04;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author lenovo
+ * 使用@ConfigurationProperties注解，将properties文件中前缀为mail的属性映射到MailConfig属性
+ * @author nosqlcoco
  *
  */
 @ConfigurationProperties(prefix="mail")
