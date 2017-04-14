@@ -3,7 +3,7 @@ package com.nosqlcoco.chaptor03;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author lenovo
+ * @author nosqlcoco
  *
  */
 @ConfigurationProperties(prefix="mail")
