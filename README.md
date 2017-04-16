@@ -22,13 +22,12 @@ springboot-all-demos项目使用maven构建，每个子模块对应一个demo，
 - chaptor_04： 定义Bean,从xml读取bean
 
 #### 数据库篇
-- chaptor_10：springboot + Hibernate + MySQL
-- chaptor_11：springboot + MyBatis + MySQL
-- chaptor_12：spring data JPA
-- chaptor_13：spring data Redis
-- chaptor_14：spring data MongoDB
-- chaptor_15：spring JdbcTemplate
-- chaptor_16：springboot + druid
+- chaptor_10：spring data JPA + Hibernate
+- chaptor_11：spring data Redis
+- chaptor_12：spring data MongoDB
+- chaptor_13：springboor + mybatis
+- chaptor_14：spring JdbcTemplate
+- chaptor_15：springboot + druid
 
 #### web篇
 敬请期待
