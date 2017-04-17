@@ -1,12 +1,12 @@
 ### springboot-all-demos
 
 springboot新手入门系列，包含以下部分：
-1. 基础部分
-2. 数据库部分
-3. WEB部分
-4. 应用集成部分
-5. 测试部分
-6. 工具类部分
+1. 基础篇
+2. 数据库篇
+3. WEB篇
+4. 应用集成篇
+5. 测试篇
+6. 工具类篇
 
 #### 一、说明
 springboot-all-demos项目使用maven构建，每个子模块对应一个demo，子模块名称以“chaptor_”开头，后接demo编号。
@@ -21,22 +21,26 @@ springboot-all-demos项目使用maven构建，每个子模块对应一个demo，
 - chaptor_03: 自定义properties配置文件
 - chaptor_04： 定义Bean,从xml读取bean
 
-#### 数据库篇
-- chaptor_10：spring data JPA + Hibernate
-- chaptor_11：spring data Redis
-- chaptor_12：spring data MongoDB
-- chaptor_13：springboor + mybatis
-- chaptor_14：spring JdbcTemplate
+#### 三、数据库篇
+- chaptor_10：springboot + spring data jpa + Hibernate
+- chaptor_11：springboot + spring data Redis
+- chaptor_12：springboot + spring data MongoDB
+- chaptor_13：springboot + mybatis
+- chaptor_14：springboot + spring JdbcTemplate
 - chaptor_15：springboot + druid
 
-#### web篇
+#### 四、web篇
 敬请期待
 
-#### 应用篇
+#### 五、应用集成篇
 敬请期待
 
-#### 测试篇
+#### 六、测试篇
 敬请期待
+
+#### 七、工具篇
+敬请期待
+
 
 #### 参考
 1. http://blog.csdn.net/chszs/article/details/50673075
