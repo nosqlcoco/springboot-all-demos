@@ -49,7 +49,7 @@ public class ApplicationTest {
 	@Autowired
 	private PublisherJpaRepository publisherJpaRepository;
 	
-	//@Test
+	@Test
 	public void testChaptor10Save() {
 		Author author = new Author();
 		author.setName("xiaoqiang");
