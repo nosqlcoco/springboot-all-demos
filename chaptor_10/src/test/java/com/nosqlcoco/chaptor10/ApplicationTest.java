@@ -1,11 +1,14 @@
 package com.nosqlcoco.chaptor10;
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.TestPropertySource;
@@ -30,7 +33,7 @@ import com.nosqlcoco.chaptor10.repository.PublisherJpaRepository;
 		locations = {"classpath:application.properties"}
 )
 public class ApplicationTest {
-	
+	private static Logger logger = LoggerFactory.getLogger(ApplicationTest.class);
 	@Autowired
 	private BookHibernateRepository bookHibernateRepository;
 	@Autowired
@@ -46,26 +49,16 @@ public class ApplicationTest {
 	@Autowired
 	private PublisherJpaRepository publisherJpaRepository;
 	
-	
-	@Test
-	public void test01AddAuthor() {
+	//@Test
+	public void testChaptor10Save() {
 		Author author = new Author();
 		author.setName("xiaoqiang");
-		authorJpaRepository.saveAndFlush(author);
-	}
-	
-	@Test
-	public void test02addPublisher() {
+		author = authorJpaRepository.saveAndFlush(author);
+		
 		Publisher publisher = new Publisher();
 		publisher.setId(String.valueOf(UUID.randomUUID()).replaceAll("-", ""));
 		publisher.setName("PeKing");
-		publisherJpaRepository.save(publisher);
-	}
-	
-	@Test
-	public void test03AddBook() {
-		Publisher publisher = publisherHibernateRepository.findById("4d7f1a01ae044c07b4e0e985c9c35f40");
-		Author author = authorHibernateRepository.findById("4028808c5b773c5a015b773caf560000");
+		publisher = publisherJpaRepository.save(publisher);
 		
 		Set<Author> authors = new HashSet<>();
 		authors.add(author);
@@ -75,5 +68,21 @@ public class ApplicationTest {
 		book.setPublisher(publisher);
 		
 		book = bookJpaRepository.save(book);
+	}
+	
+	@Test
+	public void testChaptor10Find() {
+		List<Book> books = bookHibernateRepository.findAll();
+		if(null != books) {
+			logger.info("book num: " + books.size());
+		}
+		List<Author> authors = authorHibernateRepository.findAll();
+		if(null != authors) {
+			logger.info("author num: " + authors.size());
+		}
+		List<Publisher> publisher = publisherHibernateRepository.findAll();
+		if(null != publisher) {
+			logger.info("publisher num: " + publisher.size());
+		}
 	}
 }

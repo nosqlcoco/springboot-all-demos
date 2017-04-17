@@ -1,4 +1,4 @@
-#### springboot之集成Hibernate
+#### springboot之spring jpa Hibernate
 知识点：
 - 实体数据库映射
 	- 主键生成策略(随机、自增长、手动生成)
@@ -10,4 +10,5 @@
 - 数据库连接配置，自动建表和更新
 - HibernateTemplate
 - JpaRepository
+- 从HibernateEntityManagerFactory转成SessionFactory
 

@@ -1,6 +1,7 @@
 package com.nosqlcoco.chaptor10.repository;
 
 import java.io.Serializable;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate5.HibernateTemplate;
@@ -26,5 +27,9 @@ public class PublisherHibernateRepository {
 	
 	public Publisher findById(String id) {
 		return hibernateTemplate.get(Publisher.class, id);
+	}
+	
+	public List<Publisher> findAll() {
+		return hibernateTemplate.findByExample(new Publisher());
 	}
 }
