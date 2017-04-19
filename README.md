@@ -23,11 +23,12 @@ springboot-all-demos项目使用maven构建，每个子模块对应一个demo，
 
 #### 三、数据库篇
 - chaptor_10：springboot + spring data jpa + Hibernate
-- chaptor_11：springboot + spring data Redis
-- chaptor_12：springboot + spring data MongoDB
-- chaptor_13：springboot + mybatis
-- chaptor_14：springboot + spring JdbcTemplate
-- chaptor_15：springboot + druid
+- chaptor_11：springboot + spring data jpa
+- chaptor_12：springboot + spring data Redis
+- chaptor_13：springboot + spring data MongoDB
+- chaptor_14：springboot + mybatis
+- chaptor_15：springboot + spring JdbcTemplate
+- chaptor_16：springboot + druid
 
 #### 四、web篇
 敬请期待

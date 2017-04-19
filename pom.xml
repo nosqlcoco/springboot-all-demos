@@ -63,5 +63,6 @@
 		<module>chaptor_03</module>
 		<module>chaptor_04</module>
     <module>chaptor_10</module>
+    <module>chaptor_11</module>
   </modules>
 </project>
