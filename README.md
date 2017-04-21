@@ -51,5 +51,3 @@ WeChat：Ke--eK
 
 E-mail：nosqlcoco@gmail.com
 
-![](https://github.com/cocoli/weixin_smallexe/raw/master/screenshot/dingyuhao.JPG?raw=true)
-
