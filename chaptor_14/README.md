@@ -1,4 +1,4 @@
-#### springboot 自定义缓存对象和有效期
+#### springboot redis 自定义缓存对象
 Core Point：
 1. 从 JedisConnectionFactory 获取 RedisConnectionFactory
 2. 创建 RedisTemplate 对象，并将 RedisTemplate 的连接工厂设置为 RedisConnectionFactory
