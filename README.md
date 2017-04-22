@@ -25,12 +25,13 @@ springboot-all-demos项目使用maven构建，每个子模块对应一个demo，
 - chaptor_10：springboot + spring data jpa + Hibernate
 - chaptor_11：springboot + spring data jpa
 - chaptor_12：springboot + spring data Redis
-- chaptor_12：springboot + springboot cache by redis
-- chaptor_13：springboot + spring data MongoDB
-- chaptor_14：springboot + mybatis
-- chaptor_15：springboot + spring JdbcTemplate
-- chaptor_16：springboot + druid
-- chaptor_17：springboot 多数据源
+- chaptor_13：springboot cache by redis
+- chaptor_14：springboot redis 自定义缓存对象
+- chaptor_15：springboot + spring data MongoDB
+- chaptor_16：springboot + mybatis
+- chaptor_17：springboot + spring JdbcTemplate
+- chaptor_18：springboot + druid
+- chaptor_19：springboot 多数据源
 
 #### 四、web篇
 敬请期待
