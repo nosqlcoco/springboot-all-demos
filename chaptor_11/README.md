@@ -1,4 +1,4 @@
-#### springboot之spring jpa Hibernate
+#### springboot之spring data jpa 
 Core Point：
 - Repository
 	- CurdRepository : 提供crud数据库操作
