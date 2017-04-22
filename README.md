@@ -29,6 +29,7 @@ springboot-all-demos项目使用maven构建，每个子模块对应一个demo，
 - chaptor_14：springboot + mybatis
 - chaptor_15：springboot + spring JdbcTemplate
 - chaptor_16：springboot + druid
+- chaptor_17：springboot 多数据源
 
 #### 四、web篇
 敬请期待
