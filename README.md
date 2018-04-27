@@ -20,6 +20,8 @@ springboot-all-demos项目使用maven构建，每个子模块对应一个demo，
 - chaptor_02: springboot之application.propertites配置文件详解
 - chaptor_03: 自定义properties配置文件
 - chaptor_04： 定义Bean,从xml读取bean
+- chaptor_05：集成logback，控制台+文件输出， 自适应开发环境和生产环境
+- chaptor_06：集成devtools
 
 #### 三、数据库篇
 - chaptor_10：springboot + spring data jpa + Hibernate
