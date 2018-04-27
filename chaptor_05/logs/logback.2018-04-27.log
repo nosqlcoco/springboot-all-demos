@@ -1,0 +1,48 @@
+11:31:55.356 logback [main] INFO  c.e.logback.demo.DemoApplication
+				- Starting DemoApplication on CHENGYING4-1334 with PID 9456 (D:\kesq\workspace\java\demo\target\classes started by chengying4 in D:\kesq\workspace\java\demo)
+11:31:55.356 logback [main] INFO  c.e.logback.demo.DemoApplication
+				- The following profiles are active: prod
+11:31:57.577 logback [main] INFO  c.e.logback.demo.DemoApplication
+				- Started DemoApplication in 2.521 seconds (JVM running for 3.215)
+11:31:57.577 logback [main] INFO  c.e.logback.demo.DemoApplication
+				- this is info
+11:31:57.577 logback [main] WARN  c.e.logback.demo.DemoApplication
+				- this is warn
+11:31:57.577 logback [main] ERROR c.e.logback.demo.DemoApplication
+				- this is error
+12:57:42.166 logback [main] INFO  c.e.logback.demo.DemoApplication
+				- Starting DemoApplication on CHENGYING4-1334 with PID 11272 (D:\kesq\workspace\java\demo\target\classes started by chengying4 in D:\kesq\workspace\java\demo)
+12:57:42.175 logback [main] DEBUG c.e.logback.demo.DemoApplication
+				- Running with Spring Boot v1.5.12.RELEASE, Spring v4.3.16.RELEASE
+12:57:42.175 logback [main] INFO  c.e.logback.demo.DemoApplication
+				- The following profiles are active: prod
+12:57:44.562 logback [main] INFO  c.e.logback.demo.DemoApplication
+				- Started DemoApplication in 2.712 seconds (JVM running for 3.253)
+12:57:44.562 logback [main] DEBUG c.e.logback.demo.DemoApplication
+				- this is debug
+12:57:44.562 logback [main] INFO  c.e.logback.demo.DemoApplication
+				- this is info
+12:57:44.562 logback [main] WARN  c.e.logback.demo.DemoApplication
+				- this is warn
+12:57:44.562 logback [main] ERROR c.e.logback.demo.DemoApplication
+				- this is error
+13:00:57.332 logback [main] INFO  o.s.w.c.s.GenericWebApplicationContext
+				- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@c88a337: startup date [Fri Apr 27 13:00:57 CST 2018]; root of context hierarchy
+13:00:57.587 logback [background-preinit] INFO  o.h.validator.internal.util.Version
+				- HV000001: Hibernate Validator 5.3.6.Final
+13:00:58.412 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+				- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@c88a337: startup date [Fri Apr 27 13:00:57 CST 2018]; root of context hierarchy
+13:00:58.477 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				- Mapped "{[/index]}" onto public java.lang.String com.example.logback.demo.IndexController.index()
+13:00:58.480 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+13:00:58.480 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:00:58.510 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:00:58.510 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:00:58.548 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:00:58.994 logback [Thread-2] INFO  o.s.w.c.s.GenericWebApplicationContext
+				- Closing org.springframework.web.context.support.GenericWebApplicationContext@c88a337: startup date [Fri Apr 27 13:00:57 CST 2018]; root of context hierarchy
