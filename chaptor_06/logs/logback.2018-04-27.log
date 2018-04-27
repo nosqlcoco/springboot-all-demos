@@ -1,0 +1,280 @@
+11:31:55.356 logback [main] INFO  c.e.logback.demo.DemoApplication
+				- Starting DemoApplication on CHENGYING4-1334 with PID 9456 (D:\kesq\workspace\java\demo\target\classes started by chengying4 in D:\kesq\workspace\java\demo)
+11:31:55.356 logback [main] INFO  c.e.logback.demo.DemoApplication
+				- The following profiles are active: prod
+11:31:57.577 logback [main] INFO  c.e.logback.demo.DemoApplication
+				- Started DemoApplication in 2.521 seconds (JVM running for 3.215)
+11:31:57.577 logback [main] INFO  c.e.logback.demo.DemoApplication
+				- this is info
+11:31:57.577 logback [main] WARN  c.e.logback.demo.DemoApplication
+				- this is warn
+11:31:57.577 logback [main] ERROR c.e.logback.demo.DemoApplication
+				- this is error
+12:57:42.166 logback [main] INFO  c.e.logback.demo.DemoApplication
+				- Starting DemoApplication on CHENGYING4-1334 with PID 11272 (D:\kesq\workspace\java\demo\target\classes started by chengying4 in D:\kesq\workspace\java\demo)
+12:57:42.175 logback [main] DEBUG c.e.logback.demo.DemoApplication
+				- Running with Spring Boot v1.5.12.RELEASE, Spring v4.3.16.RELEASE
+12:57:42.175 logback [main] INFO  c.e.logback.demo.DemoApplication
+				- The following profiles are active: prod
+12:57:44.562 logback [main] INFO  c.e.logback.demo.DemoApplication
+				- Started DemoApplication in 2.712 seconds (JVM running for 3.253)
+12:57:44.562 logback [main] DEBUG c.e.logback.demo.DemoApplication
+				- this is debug
+12:57:44.562 logback [main] INFO  c.e.logback.demo.DemoApplication
+				- this is info
+12:57:44.562 logback [main] WARN  c.e.logback.demo.DemoApplication
+				- this is warn
+12:57:44.562 logback [main] ERROR c.e.logback.demo.DemoApplication
+				- this is error
+13:00:57.332 logback [main] INFO  o.s.w.c.s.GenericWebApplicationContext
+				- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@c88a337: startup date [Fri Apr 27 13:00:57 CST 2018]; root of context hierarchy
+13:00:57.587 logback [background-preinit] INFO  o.h.validator.internal.util.Version
+				- HV000001: Hibernate Validator 5.3.6.Final
+13:00:58.412 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+				- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@c88a337: startup date [Fri Apr 27 13:00:57 CST 2018]; root of context hierarchy
+13:00:58.477 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				- Mapped "{[/index]}" onto public java.lang.String com.example.logback.demo.IndexController.index()
+13:00:58.480 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+13:00:58.480 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:00:58.510 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:00:58.510 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:00:58.548 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:00:58.994 logback [Thread-2] INFO  o.s.w.c.s.GenericWebApplicationContext
+				- Closing org.springframework.web.context.support.GenericWebApplicationContext@c88a337: startup date [Fri Apr 27 13:00:57 CST 2018]; root of context hierarchy
+13:22:28.760 logback [main] INFO  c.n.chaptor06.DemoApplication
+				- Starting DemoApplication on CHENGYING4-1334 with PID 11356 (D:\kesq\workspace\java\springboot-all-demos\chaptor_06\target\classes started by chengying4 in D:\kesq\workspace\java\springboot-all-demos\chaptor_06)
+13:22:28.769 logback [main] INFO  c.n.chaptor06.DemoApplication
+				- The following profiles are active: dev
+13:22:28.803 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext
+				- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ca18a14: startup date [Fri Apr 27 13:22:28 CST 2018]; root of context hierarchy
+13:22:29.129 logback [background-preinit] INFO  o.h.validator.internal.util.Version
+				- HV000001: Hibernate Validator 5.3.4.Final
+13:22:30.176 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer
+				- Tomcat initialized with port(s): 8080 (http)
+13:22:30.190 logback [main] INFO  o.a.catalina.core.StandardService
+				- Starting service Tomcat
+13:22:30.192 logback [main] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet Engine: Apache Tomcat/8.5.11
+13:22:30.331 logback [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				- Initializing Spring embedded WebApplicationContext
+13:22:30.332 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 1529 ms
+13:22:30.528 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean
+				- Mapping servlet: 'dispatcherServlet' to [/]
+13:22:30.531 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				- Mapping filter: 'characterEncodingFilter' to: [/*]
+13:22:30.531 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:22:30.532 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+13:22:30.532 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				- Mapping filter: 'requestContextFilter' to: [/*]
+13:22:30.799 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+				- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ca18a14: startup date [Fri Apr 27 13:22:28 CST 2018]; root of context hierarchy
+13:22:30.862 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				- Mapped "{[/index]}" onto public java.lang.String com.nosqlcoco.chaptor06.IndexController.index()
+13:22:30.865 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+13:22:30.865 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:22:30.887 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:22:30.887 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:22:30.919 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:22:31.150 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				- Registering beans for JMX exposure on startup
+13:22:31.167 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+13:22:31.178 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Starting ProtocolHandler [http-nio-8080]
+13:22:31.199 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool
+				- Using a shared selector for servlet write/read
+13:22:31.230 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer
+				- Tomcat started on port(s): 8080 (http)
+13:22:31.233 logback [main] INFO  c.n.chaptor06.DemoApplication
+				- Started DemoApplication in 2.808 seconds (JVM running for 3.366)
+13:22:31.233 logback [main] INFO  c.n.chaptor06.DemoApplication
+				- this is info
+13:22:31.233 logback [main] WARN  c.n.chaptor06.DemoApplication
+				- this is warn
+13:22:31.233 logback [main] ERROR c.n.chaptor06.DemoApplication
+				- this is error
+13:32:39.008 logback [restartedMain] INFO  c.n.chaptor06.DemoApplication
+				- Starting DemoApplication on CHENGYING4-1334 with PID 5104 (D:\kesq\workspace\java\springboot-all-demos\chaptor_06\target\classes started by chengying4 in D:\kesq\workspace\java\springboot-all-demos\chaptor_06)
+13:32:39.009 logback [restartedMain] INFO  c.n.chaptor06.DemoApplication
+				- The following profiles are active: dev
+13:32:39.044 logback [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext
+				- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@26a32283: startup date [Fri Apr 27 13:32:39 CST 2018]; root of context hierarchy
+13:32:39.376 logback [background-preinit] INFO  o.h.validator.internal.util.Version
+				- HV000001: Hibernate Validator 5.3.4.Final
+13:32:40.544 logback [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer
+				- Tomcat initialized with port(s): 8080 (http)
+13:32:40.557 logback [restartedMain] INFO  o.a.catalina.core.StandardService
+				- Starting service Tomcat
+13:32:40.558 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet Engine: Apache Tomcat/8.5.11
+13:32:40.645 logback [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				- Initializing Spring embedded WebApplicationContext
+13:32:40.645 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 1601 ms
+13:32:40.820 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean
+				- Mapping servlet: 'dispatcherServlet' to [/]
+13:32:40.823 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				- Mapping filter: 'characterEncodingFilter' to: [/*]
+13:32:40.823 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:32:40.823 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+13:32:40.823 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				- Mapping filter: 'requestContextFilter' to: [/*]
+13:32:41.085 logback [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+				- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@26a32283: startup date [Fri Apr 27 13:32:39 CST 2018]; root of context hierarchy
+13:32:41.141 logback [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				- Mapped "{[/index]}" onto public java.lang.String com.nosqlcoco.chaptor06.IndexController.index()
+13:32:41.165 logback [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+13:32:41.166 logback [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:32:41.196 logback [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:32:41.197 logback [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:32:41.230 logback [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:32:41.384 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+				- LiveReload server is running on port 35729
+13:32:41.517 logback [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				- Registering beans for JMX exposure on startup
+13:32:41.534 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+13:32:41.543 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Starting ProtocolHandler [http-nio-8080]
+13:32:41.556 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool
+				- Using a shared selector for servlet write/read
+13:32:41.595 logback [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer
+				- Tomcat started on port(s): 8080 (http)
+13:32:41.600 logback [restartedMain] INFO  c.n.chaptor06.DemoApplication
+				- Started DemoApplication in 2.912 seconds (JVM running for 3.501)
+13:33:14.934 logback [Thread-6] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext
+				- Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@26a32283: startup date [Fri Apr 27 13:32:39 CST 2018]; root of context hierarchy
+13:33:14.954 logback [Thread-6] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				- Unregistering JMX-exposed beans on shutdown
+13:33:15.247 logback [restartedMain] INFO  c.n.chaptor06.DemoApplication
+				- Starting DemoApplication on CHENGYING4-1334 with PID 5104 (D:\kesq\workspace\java\springboot-all-demos\chaptor_06\target\classes started by chengying4 in D:\kesq\workspace\java\springboot-all-demos\chaptor_06)
+13:33:15.247 logback [restartedMain] INFO  c.n.chaptor06.DemoApplication
+				- The following profiles are active: dev
+13:33:15.251 logback [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext
+				- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@495f99b8: startup date [Fri Apr 27 13:33:15 CST 2018]; root of context hierarchy
+13:33:15.610 logback [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer
+				- Tomcat initialized with port(s): 8080 (http)
+13:33:15.611 logback [restartedMain] INFO  o.a.catalina.core.StandardService
+				- Starting service Tomcat
+13:33:15.611 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet Engine: Apache Tomcat/8.5.11
+13:33:15.626 logback [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				- Initializing Spring embedded WebApplicationContext
+13:33:15.627 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 376 ms
+13:33:15.653 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean
+				- Mapping servlet: 'dispatcherServlet' to [/]
+13:33:15.655 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				- Mapping filter: 'characterEncodingFilter' to: [/*]
+13:33:15.655 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:33:15.655 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+13:33:15.655 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				- Mapping filter: 'requestContextFilter' to: [/*]
+13:33:15.709 logback [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+				- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@495f99b8: startup date [Fri Apr 27 13:33:15 CST 2018]; root of context hierarchy
+13:33:15.717 logback [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				- Mapped "{[/index]}" onto public java.lang.String com.nosqlcoco.chaptor06.IndexController.index()
+13:33:15.719 logback [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+13:33:15.720 logback [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:33:15.729 logback [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:33:15.729 logback [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:33:15.739 logback [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:33:15.766 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+				- LiveReload server is running on port 35729
+13:33:15.873 logback [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				- Registering beans for JMX exposure on startup
+13:33:15.880 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+13:33:15.880 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Starting ProtocolHandler [http-nio-8080]
+13:33:15.891 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool
+				- Using a shared selector for servlet write/read
+13:33:15.915 logback [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer
+				- Tomcat started on port(s): 8080 (http)
+13:33:15.917 logback [restartedMain] INFO  c.n.chaptor06.DemoApplication
+				- Started DemoApplication in 0.723 seconds (JVM running for 37.82)
+13:35:23.632 logback [Thread-10] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext
+				- Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@495f99b8: startup date [Fri Apr 27 13:33:15 CST 2018]; root of context hierarchy
+13:35:23.639 logback [Thread-10] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				- Unregistering JMX-exposed beans on shutdown
+13:35:23.927 logback [restartedMain] INFO  c.n.chaptor06.DemoApplication
+				- Starting DemoApplication on CHENGYING4-1334 with PID 5104 (D:\kesq\workspace\java\springboot-all-demos\chaptor_06\target\classes started by chengying4 in D:\kesq\workspace\java\springboot-all-demos\chaptor_06)
+13:35:23.928 logback [restartedMain] INFO  c.n.chaptor06.DemoApplication
+				- The following profiles are active: dev
+13:35:23.931 logback [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext
+				- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4d0eef00: startup date [Fri Apr 27 13:35:23 CST 2018]; root of context hierarchy
+13:35:24.229 logback [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer
+				- Tomcat initialized with port(s): 8080 (http)
+13:35:24.230 logback [restartedMain] INFO  o.a.catalina.core.StandardService
+				- Starting service Tomcat
+13:35:24.231 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine
+				- Starting Servlet Engine: Apache Tomcat/8.5.11
+13:35:24.247 logback [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				- Initializing Spring embedded WebApplicationContext
+13:35:24.248 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader
+				- Root WebApplicationContext: initialization completed in 317 ms
+13:35:24.280 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean
+				- Mapping servlet: 'dispatcherServlet' to [/]
+13:35:24.281 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				- Mapping filter: 'characterEncodingFilter' to: [/*]
+13:35:24.281 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:35:24.281 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+13:35:24.281 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				- Mapping filter: 'requestContextFilter' to: [/*]
+13:35:24.348 logback [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+				- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4d0eef00: startup date [Fri Apr 27 13:35:23 CST 2018]; root of context hierarchy
+13:35:24.357 logback [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				- Mapped "{[/index]}" onto public java.lang.String com.nosqlcoco.chaptor06.IndexController.index()
+13:35:24.360 logback [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+13:35:24.361 logback [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:35:24.371 logback [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:35:24.371 logback [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:35:24.383 logback [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:35:24.405 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+				- LiveReload server is running on port 35729
+13:35:24.505 logback [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				- Registering beans for JMX exposure on startup
+13:35:24.510 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Initializing ProtocolHandler ["http-nio-8080"]
+13:35:24.511 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+				- Starting ProtocolHandler [http-nio-8080]
+13:35:24.524 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool
+				- Using a shared selector for servlet write/read
+13:35:24.546 logback [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer
+				- Tomcat started on port(s): 8080 (http)
+13:35:24.548 logback [restartedMain] INFO  c.n.chaptor06.DemoApplication
+				- Started DemoApplication in 0.658 seconds (JVM running for 166.455)
